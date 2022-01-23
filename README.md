@@ -1,2 +1,11 @@
-# skill-quest-back
-Partie Back de l'outil en ligne Skill Quest
+# Skill Quest : Back
+## Langage
+```
+JEE (Java)
+```
+## Installation
+```
+$ cd ../chemin/vers/workspace
+$ git clone https://github.com/Skill-Quest-AL3C/skill-quest-back.git
+$ cd skill-quest-back
+```
