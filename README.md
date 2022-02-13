@@ -14,7 +14,6 @@ $ git checkout -b feature_branch
 ```
 $ git merge feature_branch
 ```
-plus d'infos dans les liens utiles en bas de page
 
 ## Description
 Gestion des API, Connexion SGBD
