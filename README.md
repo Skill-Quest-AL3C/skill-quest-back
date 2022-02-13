@@ -14,7 +14,6 @@ $ git checkout -b feature_branch
 ```
 $ git merge feature_branch
 ```
-plus d'infos dans les liens utiles en bas de page
 
 ## Description
 Gestion des API, Connexion SGBD
@@ -23,7 +22,23 @@ Gestion des API, Connexion SGBD
 ```
 Node             16.13.2
 Npm              8.1.2
+Express          4.17.2
 ```
+
+## Structure
+```
+src
+│   app.js          # Point d'entrée de l'application
+└───api             # Contient les controllers des routes pour tous les endpoints de l'application
+└───config          # Contient les variables d'environnement et tout ce qui concerne la configuration
+└───jobs            # Les tâches récurrentes à exécuter périodiquement
+└───loaders         # Séparation en modules des processus qui se lancent au démarrage
+└───models          # Entités BD
+└───services        # Logique métier
+└───subscribers     # Gestion des évènements pour les tâches asynchrones
+└───types           # Fichiers de déclarations de types en Typescript
+```
+
 ## Installation
 ```
 $ cd ../chemin/vers/workspace
