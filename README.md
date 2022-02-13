@@ -25,7 +25,7 @@ Npm              8.1.2
 Express          4.17.2
 ```
 
-## Structure
+## Proposition de structure
 ```
 src
 │   app.js          # Point d'entrée de l'application
