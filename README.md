@@ -28,15 +28,15 @@ Express          4.17.2
 ## Structure
 ```
 src
-│   app.js          # App entry point
-└───api             # Express route controllers for all the endpoints of the app
-└───config          # Environment variables and configuration related stuff
-└───jobs            # Jobs definitions for agenda.js
-└───loaders         # Split the startup process into modules
-└───models          # Database models
-└───services        # All the business logic is here
-└───subscribers     # Event handlers for async task
-└───types           # Type declaration files (d.ts) for Typescript
+│   app.js          # Point d'entrée de l'application
+└───api             # Contient les controllers des routes pour tous les endpoints de l'application
+└───config          # Contient les variables d'environnement et tout ce qui concerne la configuration
+└───jobs            # Les tâches récurrentes à exécuter périodiquement
+└───loaders         # Séparation en modules des processus qui se lancent au démarrage
+└───models          # Entités BD
+└───services        # Logique métier
+└───subscribers     # Gestion des évènements pour les tâches asynchrones
+└───types           # Fichiers de déclarations de types en Typescript
 ```
 
 ## Installation
