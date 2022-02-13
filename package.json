@@ -1,0 +1,22 @@
+{
+  "name": "skill-quest-back",
+  "version": "1.0.0",
+  "description": "partie back de skill quest",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skill-Quest-AL3C/skill-quest-back.git"
+  },
+  "author": "skill-quest-corp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skill-Quest-AL3C/skill-quest-back/issues"
+  },
+  "homepage": "https://github.com/Skill-Quest-AL3C/skill-quest-back#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
