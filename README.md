@@ -49,3 +49,9 @@ refactor: un changement dans le code qui n'apporte pas de nouvelle fonctionnalit
 style: changement qui n'affecte pas le fonctionnent du code (ex: espace, formattage de code, points-virgules manquants, etc)
 Test: ajout ou correction de tests
 ```
+
+## Liens utiles
+```
+Installer les outils : https://www.ganatan.com/tutorials/demarrer-avec-angular
+Comprendre l'organisation des branches du git : https://www.atlassian.com/fr/git/tutorials/comparing-workflows/gitflow-workflow
+```
