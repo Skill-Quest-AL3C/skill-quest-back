@@ -1,9 +1,28 @@
 # Skill Quest : Back
+# /!\ A lire avant de faire quoi que ce soit /!\
+## IMPORTANT
+### NE PAS DEVELOPPER SUR LA BRANCHE MAIN MAIS SUR DEVELOP
+```
+// après le clone du projet
+$ git checkout develop
+```
+### ENSUITE CREER UNE BRANCHE FEATURE SUR LA BRANCHE DEVELOP (C'EST VOTRE BRANCHE PERSO)
+```
+$ git checkout -b feature_branch
+```
+### QUAND VOUS AVEZ FINI DE DEV SUR FEATURE, ON MERGE ENSUITE SUR DEVELOP
+```
+$ git merge feature_branch
+```
+plus d'infos dans les liens utiles en bas de page
+
 ## Description
 Gestion des API, Connexion SGBD
-## Langage
+
+## Config
 ```
-JEE (Java)
+Node             16.13.2
+Npm              8.1.2
 ```
 ## Installation
 ```
