@@ -37,6 +37,8 @@ src
 └───services        # Logique métier
 └───subscribers     # Gestion des évènements pour les tâches asynchrones
 └───types           # Fichiers de déclarations de types en Typescript
+
+tests
 ```
 
 ## Installation
